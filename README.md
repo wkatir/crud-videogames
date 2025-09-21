@@ -2,7 +2,7 @@
 
 A modern, minimalist web application for managing your video game collection with full CRUD operations. Built with Next.js 15, TypeScript, and shadcn/ui components.
 
-## 🎮 Project Overview
+## Project Overview
 
 **GameVault** is a sophisticated video game collection management system that allows users to:
 - Add, edit, and delete video games from their collection
@@ -11,13 +11,13 @@ A modern, minimalist web application for managing your video game collection wit
 - Search and filter games by various criteria
 - View collection statistics and analytics
 
-## 👥 Development Team
+## Development Team
 
 **Developers:**
 - Atilio Gustavo Morataya Serrano (MS101122)
 - Wilmer Henrry Salazar Martinez (SM101223)
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 ### Frontend Framework
 - **Next.js 15.5.3** - React framework with App Router
@@ -38,7 +38,7 @@ A modern, minimalist web application for managing your video game collection wit
 - **localStorage** - Client-side data persistence
 - **Custom hooks** - Reusable logic components
 
-## 🎯 Design Decisions
+## Design Decisions
 
 ### Architecture Choices
 - **Client-side storage**: Used localStorage instead of a database for simplicity and immediate setup
@@ -46,19 +46,13 @@ A modern, minimalist web application for managing your video game collection wit
 - **TypeScript**: Full type safety throughout the application
 - **Responsive design**: Mobile-first approach with Tailwind CSS
 
-### User Interface Design
-- **Minimalist aesthetic**: Clean black and white design avoiding "AI-generated" appearance
-- **Form-table layout**: Clear separation between data entry and data display
-- **Progressive enhancement**: Works with JavaScript disabled
-- **Accessibility focused**: Proper ARIA labels and keyboard navigation
-
 ### Data Management
 - **JSON structure**: Simple, readable data format
 - **Unique ID generation**: Automatic ID creation using timestamps
 - **Validation**: Comprehensive form validation with real-time feedback
 - **Error handling**: Graceful error management with user notifications
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 - Node.js 18+ or later
@@ -93,31 +87,31 @@ A modern, minimalist web application for managing your video game collection wit
 4. **Open your browser:**
    Navigate to [http://localhost:3000](http://localhost:3000) (or the port shown in your terminal)
 
-## 📱 Features
+## Features
 
 ### Core Functionality
-- ✅ **Create** - Add new games to your collection
-- ✅ **Read** - View all games in a clean table format
-- ✅ **Update** - Edit existing game information
-- ✅ **Delete** - Remove games with confirmation dialogs
+- **Create** - Add new games to your collection
+- **Read** - View all games in a clean table format
+- **Update** - Edit existing game information
+- **Delete** - Remove games with confirmation dialogs
 
 ### Advanced Features
-- 🔍 **Smart Search** - Search across titles, developers, and genres
-- 🏷️ **Status Tracking** - Mark games as New, In Progress, Completed, etc.
-- ⭐ **Rating System** - Rate games from 1-10 stars
-- 📊 **Progress Tracking** - Track completion percentage
-- 🎮 **Platform Support** - Support for PS5, Xbox, Nintendo Switch, PC, Mobile
-- 📝 **Personal Notes** - Add custom notes for each game
-- 🎯 **Statistics Dashboard** - View collection metrics at a glance
+- **Smart Search** - Search across titles, developers, and genres
+- **Status Tracking** - Mark games as New, In Progress, Completed, etc.
+- **Rating System** - Rate games from 1-10 stars
+- **Progress Tracking** - Track completion percentage
+- **Platform Support** - Support for PS5, Xbox, Nintendo Switch, PC, Mobile
+- **Personal Notes** - Add custom notes for each game
+- **Statistics Dashboard** - View collection metrics at a glance
 
 ### User Experience
-- 💬 **Toast Notifications** - Real-time feedback for all actions
-- 📱 **Responsive Design** - Works on desktop, tablet, and mobile
-- ⚡ **Fast Performance** - Optimized with Next.js 15 and Turbopack
-- 🎨 **Modern UI** - Clean, professional design with shadcn/ui
-- 🛡️ **Form Validation** - Real-time validation with helpful error messages
+- **Toast Notifications** - Real-time feedback for all actions
+- **Responsive Design** - Works on desktop, tablet, and mobile
+- **Fast Performance** - Optimized with Next.js 15 and Turbopack
+- **Modern UI** - Clean, professional design with shadcn/ui
+- **Form Validation** - Real-time validation with helpful error messages
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 src/
@@ -135,7 +129,7 @@ src/
     └── game-storage.ts   # Data persistence logic
 ```
 
-## 🔧 Configuration
+## Configuration
 
 ### Package.json Scripts
 ```json
@@ -154,7 +148,7 @@ src/
 - Path mapping with `@/*` aliases
 - Modern ES modules support
 
-## 🐛 Challenges & Solutions
+## Challenges & Solutions
 
 ### Challenges Encountered
 
@@ -186,7 +180,7 @@ src/
 - **Memory Management**: Efficient localStorage usage
 - **Performance Optimization**: Code splitting and lazy loading
 
-## 📊 Data Model
+## Data Model
 
 ### Game Interface
 ```typescript
@@ -206,7 +200,7 @@ interface Game {
 }
 ```
 
-## 🎨 Design Philosophy
+## Design Philosophy
 
 - **Minimalism**: Clean, uncluttered interface
 - **Functionality**: Every element serves a purpose
@@ -214,7 +208,7 @@ interface Game {
 - **Performance**: Optimized for speed and efficiency
 - **Maintainability**: Clean, documented code structure
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - Database integration for multi-user support
 - Game cover image uploads
@@ -223,7 +217,7 @@ interface Game {
 - Dark mode support
 - Mobile app version
 
-## 📄 License
+## License
 
 This project is for educational purposes as part of the Quality Management course.
 

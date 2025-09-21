@@ -258,7 +258,7 @@ export function GameTable({ games, onEdit, onDelete }: GameTableProps) {
                             <AlertDialogHeader>
                               <AlertDialogTitle className="text-gray-900">Delete Game</AlertDialogTitle>
                               <AlertDialogDescription className="text-gray-600">
-                                Are you sure you want to delete "{game.title}"? This action cannot be undone.
+                                Are you sure you want to delete &ldquo;{game.title}&rdquo;? This action cannot be undone.
                               </AlertDialogDescription>
                             </AlertDialogHeader>
                             <AlertDialogFooter>

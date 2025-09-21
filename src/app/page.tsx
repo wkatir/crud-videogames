@@ -2,13 +2,12 @@
 
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
+import { Card, CardContent } from '@/components/ui/card';
 import { GameForm } from '@/components/game-form';
 import { GameTable } from '@/components/game-table';
 import { Game, GameFormData } from '@/lib/types';
 import { getGames, createGame, updateGame, deleteGame } from '@/lib/game-storage';
-import { Plus, Gamepad2, TrendingUp, Clock, CheckCircle, AlertCircle } from 'lucide-react';
+import { Plus, Gamepad2, TrendingUp, Clock, CheckCircle } from 'lucide-react';
 import { toast } from 'sonner';
 
 export default function Home() {
